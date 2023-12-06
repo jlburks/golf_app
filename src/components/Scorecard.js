@@ -1,5 +1,7 @@
-const Scorecard = () => {
-  return <h1>ScoreCard</h1>;
+import IndividualCard from "./IndividualCard";
+
+const Scorecard = (props) => {
+  return <IndividualCard gameType={props.gameType} />;
 };
 
 export default Scorecard;
